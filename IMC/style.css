@@ -1,0 +1,88 @@
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-image: url(./img2/allianzparque.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: gainsboro;
+  width: 400px;
+  height: 600px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-shadow: 0 0 10px green;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  font: bold 2rem helvetica;
+  border-bottom: solid 5px rgb(0, 128, 11);
+  margin-bottom: 20px;
+  color: rgb(0, 128, 11);
+}
+
+.input {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.input input {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  font: bold 1rem helvetica;
+  text-align: center;
+  box-shadow: 0 0 5px rgb(0, 128, 11);
+  color: rgb(0, 128, 11);
+}
+
+.input label {
+  font: bold 1.5rem helvetica;
+  color: rgb(0, 128, 11);
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  font: bold 1.2rem helvetica;
+  background: rgb(0, 128, 11);
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  font: bold italic 1rem helvetica;
+  box-shadow: 0px 0px 10px rgb(0, 128, 11);
+  background: white;
+  color: rgb(0, 128, 11);
+  padding: 20px;
+  box-sizing: border-box;
+  user-select: none;
+}
