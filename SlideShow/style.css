@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/fundopalmeiras.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-slide {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    height: 60vh;
+    background-color: rgb(0, 128, 11);
+    margin: 20vh auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgb(0, 128, 11);
+    border: 5px solid rgb(0, 128, 11);
+}
+
+.container-items {
+    position: absolute;
+    display: flex;
+    width: 40vw;
+    height: 60vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item {
+    width: 40vw;
+    height: 60vh;
+    transition: all 1s;
+}
+
+.item:first-child {
+    margin-left: -100%;
+}
+
+.item img {
+    width: 40vw;
+    height: 60vh;
+    border-radius: 10px;
+}
+
+.action-button {
+    font: bold 30px helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    color: #00000000;
+    user-select: none;
+    position: relative;
+}
+
+.action-button:hover {
+    color: white;
+    background-color: #00000055;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
